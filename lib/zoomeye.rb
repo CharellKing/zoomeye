@@ -42,7 +42,6 @@ module Zoomeye
 
     def get(uri, params)
       full_path = path_with_params(uri, params)
-      puts full_path
       uri = URI.parse(full_path)
       http = Net::HTTP.new(uri.host, uri.port)
       auth = "JWT " + @token
