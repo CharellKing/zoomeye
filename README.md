@@ -61,7 +61,7 @@ end
 ``` ruby
 #!/usr/bin/ruby -w
 # -*- coding: utf-8 -*-
-require File.dirname(__FILE__) + '/../zoom_eye.rb'
+require 'zoomeye'
 
 if __FILE__ == $0
   begin
