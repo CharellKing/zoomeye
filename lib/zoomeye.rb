@@ -4,7 +4,7 @@ require 'net/http'
 require 'json'
 require "zoomeye/version"
 
-require File.dirname(__FILE__) + '/zoom_eye_error.rb'
+require File.dirname(__FILE__) + '/zoomeye_error.rb'
 
 module Zoomeye
   class ZoomEye
