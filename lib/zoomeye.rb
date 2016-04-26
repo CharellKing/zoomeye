@@ -58,7 +58,7 @@ module Zoomeye
       end
     end
 
-    def resources
+    def resources_info
       res = get(@@home_url + @@resource_sub_url, {})
       body = JSON.parse res.body
       if '200' == res.code
